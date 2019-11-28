@@ -3,7 +3,7 @@ set(VCPKG_CRT_LINKAGE dynamic)
 set(VCPKG_LIBRARY_LINKAGE dynamic)
 
 if(${PORT} MATCHES "protobuf|pthread")
-  set(VCPKG_CRT_LINKAGE static)
+  set(VCPKG_CRT_LINKAGE dynamic)
   set(VCPKG_LIBRARY_LINKAGE static)
 else()
   set(VCPKG_CRT_LINKAGE dynamic)
