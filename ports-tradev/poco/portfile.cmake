@@ -21,7 +21,7 @@ vcpkg_configure_cmake(
         -DENABLE_REDIS=OFF
         -DENABLE_ZIP=OFF
         -DENABLE_JWT=OFF
-        -DPOCO_STATIC=ON
+        -DPOCO_STATIC=OFF
 )
 
 vcpkg_install_cmake()
