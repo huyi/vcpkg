@@ -1,0 +1,4 @@
+Source: tradev-poco
+Version: 1.10.1
+Description: Modern, powerful open source C++ class libraries for building network and internet-based applications that run on desktop, server, mobile and embedded systems.
+Homepage: https://github.com/pocoproject/poco
